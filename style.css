@@ -1,0 +1,57 @@
+html { 
+  background: url(https://wallpapercave.com/wp/wp7124705.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+    font-size: 3em;
+    color: DeepPink;
+    font-family: arial;
+    text-align: center;
+}
+
+p {
+    font-size: 2em;
+    color: pink;
+    font-family: arial;
+    text-align: center;
+}
+
+.hike {
+    font-size: 1em;
+    color: yellow;
+    font-family: arial;
+    border-style: solid;
+}
+
+#hike-list {
+    display: flex;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: auto;
+}
+
+.hike {
+   display: flex;
+   flex: 0 0 33%;
+   flex-grow: 1;
+   text-align: left;
+   padding: 50px;
+ }
+ 
+ @media (max-width: 1045px) { 
+    #hike-list {
+        max-width: 100%;
+    }
+   .hike { 
+       flex: 0 0 50%;
+       text-align: center;
+   }
+ } 
+ 
+ 
+ 
